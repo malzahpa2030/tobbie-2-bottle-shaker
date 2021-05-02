@@ -1,6 +1,3 @@
-input.onButtonPressed(Button.A, function () {
-	
-})
 input.onGesture(Gesture.Shake, function () {
     for (let index = 0; index < 1000; index++) {
         basic.pause(10)
@@ -14,7 +11,4 @@ input.onGesture(Gesture.Shake, function () {
         . . . . .
         # # # # #
         `)
-})
-basic.forever(function () {
-	
 })
