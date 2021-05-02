@@ -1,8 +1,8 @@
 input.onGesture(Gesture.Shake, function () {
     for (let index = 0; index < 1000; index++) {
-        basic.pause(10)
-        led.plot(randint(0, 4), randint(0, 4))
+        led.plotBrightness(randint(0, 4), randint(0, 4), randint(1, 225))
         led.toggle(randint(0, 4), randint(0, 4))
+        basic.pause(10)
     }
     basic.showLeds(`
         . . . . .
